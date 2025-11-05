@@ -16,4 +16,15 @@ def test():
     print(string_example)
     print(number_example)
     
-test()
+if __name__ == "__main__":
+    test()
+
+# ---- OUTPUT ----
+Hello, World!
+This is a test function.
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+{'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+(True, False, True, False)
+{0.577, 1.61, 2.71, 3.14}
+This is a sample string.
+420
