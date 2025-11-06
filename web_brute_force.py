@@ -1,3 +1,9 @@
+'''
+Web/SSH brute-force testing script for automated credential testing.  
+Reads candidate credentials from a wordlist and attempts authentication against a target host for the purpose of security testing in authorized labs.
+**DO NOT** run against systems you do not own or explicitly have permission to test.
+'''
+######################################################################################################################################################
 import requests
 import sys
 import time
