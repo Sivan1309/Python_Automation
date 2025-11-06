@@ -1,3 +1,10 @@
+'''
+This project uses pwntools (`pwn`), a lightweight Python toolkit for CTF-style exploit development and binary interaction. 
+It provides convenient APIs for spawning processes, connecting remotely, handling ELF/ROP primitives, packing/unpacking, and crafting payloads.
+'''
+#####################################################################################################################################################
+
+
 from pwn import *
 # Run a local binary
 p = process('./vulnerable_binary')
