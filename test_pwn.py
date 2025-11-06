@@ -1,5 +1,5 @@
 '''
-This project uses pwntools (`pwn`), a lightweight Python toolkit for CTF-style exploit development and binary interaction. 
+This code uses pwntools (`pwn`), a lightweight Python toolkit for CTF-style exploit development and binary interaction. 
 It provides convenient APIs for spawning processes, connecting remotely, handling ELF/ROP primitives, packing/unpacking, and crafting payloads.
 '''
 #####################################################################################################################################################
